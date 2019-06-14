@@ -1,0 +1,28 @@
+{
+  "name": "octopus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.1",
+    "grpc": "^1.21.1",
+    "js-yaml": "^3.13.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HZFE/octopus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HZFE/octopus/issues"
+  },
+  "homepage": "https://github.com/HZFE/octopus#readme"
+}

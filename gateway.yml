@@ -1,0 +1,5 @@
+- name: test
+  url: /test
+  method: get
+  service: Greeter
+  function: sayHello
