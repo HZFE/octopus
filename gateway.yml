@@ -1,5 +1,15 @@
+- name: hello
+  url: /hello
+  method: get
+  service: server.Greeter.sayHello
+  rpc:
+    ip: 127.0.0.1
+    port: 8081
+
 - name: test
   url: /test
   method: get
-  service: Greeter
-  function: sayHello
+  service: server.Greeter.test
+  rpc:
+    ip: 127.0.0.1
+    port: 8081
