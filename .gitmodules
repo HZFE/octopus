@@ -1,0 +1,3 @@
+[submodule "hzfe-proto"]
+	path = hzfe-proto
+	url = git@github.com:HZFE/hzfe-proto.git

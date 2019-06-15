@@ -1,7 +1,7 @@
 const grpc = require('grpc');
 const protoLoader = require('@grpc/proto-loader');
 
-const PROTO_PATH = __dirname + '/proto/server.proto';
+const PROTO_PATH = __dirname + '/hzfe-proto/server.proto';
 const packageDefinition = protoLoader.loadSync(PROTO_PATH, {
   keepCase: true,
   longs: String,

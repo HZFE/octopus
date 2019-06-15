@@ -26,7 +26,7 @@ app.use(async ctx => {
       continue;
     }
 
-    const packageDefinition = protoLoader.loadSync(`${__dirname}/proto/${packageName}.proto`, {
+    const packageDefinition = protoLoader.loadSync(`${__dirname}/hzfe-proto/${packageName}.proto`, {
       keepCase: true,
       longs: String,
       enums: String,
