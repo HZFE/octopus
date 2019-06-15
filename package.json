@@ -10,7 +10,10 @@
     "koa": "^2.7.0",
     "koa-body": "^4.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/js-yaml": "^3.12.1",
+    "@types/koa": "^2.0.48"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
